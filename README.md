@@ -1,2 +1,2 @@
 # reactdanielvstim
-A counter I made in React for two friends. 
+My first React project where I made a counter for two friends. 
