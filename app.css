@@ -1,0 +1,126 @@
+body {
+  background-image: url("images/d-vs-t.png"),
+                    url('images/dragon ball.jpg');
+  background-repeat: no-repeat;
+  background-position: 50% 5%;
+  font-family: arial;
+  color: #FFF;
+  text-transform: uppercase;
+}
+
+#container {
+  padding: 50px;
+}
+
+.scoreboard {
+  background: #ff5a00;
+  width: 700px;
+  margin: 70px auto;
+  box-shadow: 0 4px 0px #333;
+  border-radius: 15px;
+
+}
+
+audio {
+  background-color: #ff5a00;
+}
+
+.header {
+  padding: 5px 10px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  background-color: #ff9a00;
+  border-radius: 15px 15px 0 0;
+  border-bottom: solid 2px #444;
+}
+
+.header h1 {
+  flex-grow: 1;
+  font-size: 1.5em;
+  letter-spacing: 3px;
+  font-weight: normal;
+}
+
+.header .stats {
+  width: 170px;
+}
+
+.stats {
+  margin-top: 0;
+  font-weight: normal;
+}
+
+  .stats td:first-child {
+    text-align: right;
+    font-weight: normal;
+    letter-spacing: 2px;
+    color: #666;
+    font-size: .7em;
+  }
+
+  .stats td:last-child {
+    text-align: left;
+  }
+
+.player {
+  display: flex;
+  font-size: 1.2em;
+  border-bottom: solid 2px #444;
+  letter-spacing: 2px;
+}
+
+  .player-name {
+    flex-grow: 1;
+    padding: 20px 10px 10px 10px;
+  }
+
+  .player-score {
+    width: 190px;
+    background: blue;
+  }
+
+  .counter {
+    display: flex;
+  }
+
+  .counter-action {
+    border: none;
+    font-weight: bold;
+    color: #FAFAFA;
+    display: block;
+    padding: 20px 20px;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+
+  .counter-action.increment {
+    background: #4cb24c;
+  }
+
+  .counter-action.increment:hover {
+    background: #549d59;
+    cursor: pointer;
+  }
+
+  .counter-action.decrement {
+    background: #ff0000;
+  }
+
+  .counter-action.decrement:hover {
+    background: #c44442;
+    cursor: pointer;
+  }
+
+  .counter-score {
+    flex-grow: 1;
+    background: #ff5a00;
+    color: #FAFAFA;
+    text-align: center;
+    font-family: monospace;
+    padding: 10px;
+    font-size: 2em;
+  }
