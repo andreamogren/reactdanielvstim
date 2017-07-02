@@ -6,7 +6,7 @@ var PLAYERS = [
   },
   {
     name: "Tim",
-    score: 3,
+    score: 4,
     id: 2,
   },
 ];
