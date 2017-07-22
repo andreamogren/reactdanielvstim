@@ -1,12 +1,12 @@
 var PLAYERS = [
   {
     name: "Daniel",
-    score: 4,
+    score: 5,
     id: 1,
   },
   {
     name: "Tim",
-    score: 4,
+    score: 5,
     id: 2,
   },
 ];
